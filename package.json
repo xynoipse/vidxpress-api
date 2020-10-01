@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node server",
     "dev": "nodemon server",
-    "test": "jest --verbose",
-    "test:watch": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose --coverage --runInBand"
   },
   "author": "Jason",
   "license": "ISC",
@@ -26,6 +25,7 @@
   },
   "devDependencies": {
     "jest": "^26.4.2",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "supertest": "^5.0.0"
   }
 }
