@@ -67,4 +67,13 @@ describe('/api/returns', () => {
 
     expect(res.status).toBe(400);
   });
+
+  it('should return 404 if no rental found for customerId/movieId', async () => {
+    customerId = mongoose.Types.ObjectId();
+    movieId = mongoose.Types.ObjectId();
+
+    const res = await exec();
+
+    expect(res.status).toBe(404);
+  });
 });
