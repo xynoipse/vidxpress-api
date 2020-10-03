@@ -1,0 +1,62 @@
+[
+  {
+    "title": "The King of Staten Island",
+    "numberInStock": 5,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "3 Idiots",
+    "numberInStock": 10,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Good Boys",
+    "numberInStock": 15,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Die Hard",
+    "numberInStock": 5,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Terminator",
+    "numberInStock": 10,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "The Avengers",
+    "numberInStock": 15,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Midnight Sun",
+    "numberInStock": 5,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Beauty and the Beast",
+    "numberInStock": 10,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Titanic",
+    "numberInStock": 15,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Joker",
+    "numberInStock": 5,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Parasite",
+    "numberInStock": 10,
+    "dailyRentalRate": 2
+  },
+  {
+    "title": "Peninsula",
+    "numberInStock": 15,
+    "dailyRentalRate": 2
+  }
+]
