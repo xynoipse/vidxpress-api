@@ -22,18 +22,13 @@ const movies = JSON.parse(
 
 const importData = async () => {
   try {
-    let index = 0;
-    for (let genre of genres) {
-      const { _id: genreId } = await new Genre({ name: genre.name }).save();
+    await Genre.insertMany(genres);
 
-      moviesData = movies.slice(index, 3 + index);
-      moviesData = moviesData.map(movie => ({
-        ...movie,
-        genre: { _id: genreId, name: genre.name }
-      }));
-      await Movie.insertMany(moviesData);
-
-      index += 3;
+    for (let movie of movies) {
+      let genre = await Genre.findOne({ name: movie.genre });
+      if (!genre) genre = await Genre.create({ name: movie.genre });
+      movie.genre = { _id: genre.id, name: movie.genre };
+      await Movie.create(movie);
     }
 
     console.log('Data Imported...');

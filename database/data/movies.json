@@ -2,61 +2,115 @@
   {
     "title": "The King of Staten Island",
     "numberInStock": 5,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Comedy"
   },
   {
     "title": "3 Idiots",
     "numberInStock": 10,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Comedy"
   },
   {
     "title": "Good Boys",
     "numberInStock": 15,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Comedy"
   },
   {
     "title": "Die Hard",
     "numberInStock": 5,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Action"
   },
   {
     "title": "Terminator",
     "numberInStock": 10,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Action"
   },
   {
     "title": "The Avengers",
     "numberInStock": 15,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Action"
   },
   {
     "title": "Midnight Sun",
     "numberInStock": 5,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Romance"
   },
   {
     "title": "Beauty and the Beast",
     "numberInStock": 10,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Romance"
   },
   {
     "title": "Titanic",
     "numberInStock": 15,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Romance"
   },
   {
     "title": "Joker",
     "numberInStock": 5,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Crime"
   },
   {
     "title": "Parasite",
     "numberInStock": 10,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Thriller"
   },
   {
-    "title": "Peninsula",
+    "title": "The Dark Knight",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "genre": "Action"
+  },
+  {
+    "title": "Inception",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "genre": "Sci-Fi"
+  },
+  {
+    "title": "The Social Network",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "genre": "Biography"
+  },
+  {
+    "title": "The Theory of Everything",
+    "numberInStock": 10,
+    "dailyRentalRate": 2,
+    "genre": "Biography"
+  },
+  {
+    "title": "Train to Busan Presents: Peninsula",
     "numberInStock": 15,
-    "dailyRentalRate": 2
+    "dailyRentalRate": 2,
+    "genre": "Horror"
+  },
+  {
+    "title": "Se7en",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "genre": "Mystery"
+  },
+  {
+    "title": "Your Name.",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "genre": "Animation"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "numberInStock": 15,
+    "dailyRentalRate": 2,
+    "genre": "Animation"
   }
 ]
