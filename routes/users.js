@@ -18,9 +18,9 @@ router.post('/', async (req, res) => {
   let user = await User.findOne({ email });
   if (user) return res.status(400).send('User already registered.');
 
-  user = new User({ name, email, password });
   const salt = await bcrypt.genSalt(10);
   password = await bcrypt.hash(password, salt);
+  user = new User({ name, email, password });
   await user.save();
 
   const token = user.generateAuthToken();
